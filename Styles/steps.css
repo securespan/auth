@@ -1,8 +1,7 @@
-
 .steps-box {
   width: 100%;
   max-width: 100%;
-  margin: 8px auto;
+  margin: 3rem auto 3rem; 
   padding: 0.5rem;
   background: transparent;
   backdrop-filter: none;
@@ -16,12 +15,11 @@
 }
 
 .steps-statement {
-  background: linear-gradient(45deg, #0000ff, #1e90ff, #00bfff, #87ceeb, #b0e0e6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f3e8ff;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 12px #a855f788;
   font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
   text-shadow: none;
 }
 
@@ -147,14 +145,14 @@
 @media (min-width: 600px) {
   .steps-box {
     max-width: 800px;
-    margin: 16px auto;
+    margin: 4rem auto 4rem; 
     padding: 0.75rem;
     border-radius: 0;
   }
 
   .steps-statement {
     font-size: 1.5rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 2.5rem; 
   }
 
   .steps {
@@ -228,17 +226,18 @@
   }
 }
 
+/* Desktop breakpoint */
 @media (min-width: 900px) {
   .steps-box {
     max-width: 1200px;
-    margin: 24px auto;
+    margin: 5rem auto 5rem; 
     padding: 1rem;
     border-radius: 0;
   }
 
   .steps-statement {
     font-size: 1.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem; 
   }
 
   .steps {
