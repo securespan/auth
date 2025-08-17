@@ -26,7 +26,7 @@ body {
   background: transparent;
   backdrop-filter: none;
   border-radius: 0;
-  margin: 0;
+  margin: 4rem 0; 
   max-width: 100%;
   min-height: 100vh;
   box-shadow: none;
@@ -37,11 +37,12 @@ body {
 
 .wallet-support-heading {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.6rem; 
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #7c3aed, #c084fc);
+  margin-top: 3rem;
+  background: linear-gradient(135deg, #6395a1, #1648e0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -54,7 +55,7 @@ body {
   text-align: center;
   width: 100%;
   color: #a1a1a6;
-  font-size: 0.75rem;
+  font-size: 0.8rem; 
   font-weight: 300;
   padding: 0 0.5rem 0.8rem 0.5rem;
   line-height: 1.2;
@@ -186,7 +187,7 @@ body {
 }
 
 .item a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .item::before {
@@ -238,7 +239,7 @@ body {
   height: 28px;
   border-radius: 6px;
   object-fit: cover;
-  margin: 0 auto 0.3rem auto; /* Center logo with auto margins */
+  margin: 0 auto 0.3rem auto;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
@@ -253,7 +254,7 @@ body {
   color: #ffffff;
   margin: 0;
   line-height: 1.1;
-  text-align: center; /* Ensure text is centered */
+  text-align: center;
 }
 
 /* Footer Styles */
@@ -272,11 +273,10 @@ footer p {
   color: #e2e8f0;
 }
 
-/* Responsive Design - Tablet */
 @media (min-width: 768px) {
   .wallet-support {
     padding: 2rem 1rem;
-    margin: 0.5rem;
+    margin: 4rem auto; 
     border-radius: 0;
     max-width: 900px;
     margin-left: auto;
@@ -356,7 +356,7 @@ footer p {
   .logo {
     width: 35px;
     height: 35px;
-    margin: 0 auto 0.4rem auto; /* Center logo */
+    margin: 0 auto 0.4rem auto;
   }
   
   .logo-title {
@@ -364,11 +364,10 @@ footer p {
   }
 }
 
-/* Responsive Design - Desktop */
 @media (min-width: 1024px) {
   .wallet-support {
     padding: 3rem 2rem;
-    margin: 1rem auto;
+    margin: 4rem auto; 
     border-radius: 0;
     max-width: 1200px;
   }
@@ -439,7 +438,7 @@ footer p {
   .logo {
     width: 40px;
     height: 40px;
-    margin: 0 auto 0.5rem auto; /* Center logo */
+    margin: 0 auto 0.5rem auto;
   }
   
   .logo-title {
@@ -447,10 +446,10 @@ footer p {
   }
 }
 
-/* Large Desktop */
 @media (min-width: 1440px) {
   .wallet-support {
     max-width: 1400px;
+    margin: 4rem auto; 
   }
   
   .wallet-support-heading {
@@ -516,7 +515,7 @@ footer p {
   .logo {
     width: 45px;
     height: 45px;
-    margin: 0 auto 0.5rem auto; /* Center logo */
+    margin: 0 auto 0.5rem auto;
   }
   
   .logo-title {
@@ -524,7 +523,6 @@ footer p {
   }
 }
 
-/* Smooth animations for better UX */
 .item {
   animation: fadeInUp 0.6s ease forwards;
   opacity: 0;
