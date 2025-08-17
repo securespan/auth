@@ -152,7 +152,7 @@
 
 @media (max-width: 767px) {
   .cta-btn {
-    padding: 8px 16px;
+    padding: 12px 24px;
     font-size: 0.625rem;
     border-radius: 12px;
   }
