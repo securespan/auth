@@ -46,7 +46,6 @@
 .case-item-container-2 {
   background: #1b1a20;
   border-radius: 6px;
-  border: 1px solid rgba(168, 85, 247, 0.1);
   padding: 12px 8px;
   transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
   position: relative;
@@ -69,15 +68,13 @@
 .case-item-header {
   font-size: 1rem;
   font-weight: 600;
-  background: linear-gradient(45deg, #0000ff, #3e97f0, #1e51df, #840ab4, #d5e2e4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #818695;
   text-align: center;
   margin-bottom: 4px;
 }
 
 .case-item {
-  color: #e9d5ff;
+  color: #407463;
   font-size: 0.8rem;
   line-height: 1.4;
   opacity: 0.9;
@@ -154,7 +151,7 @@
 
   .case-item {
     font-size: 0.9rem;
-    color: #d5e2e4;
+    color: #407463;
     font-weight: 200;
   }
 }
